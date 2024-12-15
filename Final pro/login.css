@@ -1,0 +1,85 @@
+*{
+    font-family: Helvetica;
+    margin-left: 0;
+
+  }
+  .formHead{
+    margin-bottom: 20px;
+  }
+  #form{
+    display: flexbox;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    }
+  #email{
+  border-radius: 5px;
+  width: 94%;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(217, 216, 216);
+  }
+  #pass{
+  border-radius: 5px;
+  width: 94%;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(217, 216, 216);
+ 
+ }
+
+ .formFoot{
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ #b1{
+   margin-top: 30px;
+   border-radius: 30px;
+   width: 210px;
+   height: 45px;
+   color: white;
+   background-color: black;
+   margin-bottom: 30px;
+   border-color: black;
+   border: none;
+  }
+ #b2{
+   text-align: center;
+   /* margin-top: 30px; */
+   border-radius: 30px;
+   padding: 12px 57px;
+   /* margin-top: -90px; */
+   background-color: white; 
+   margin-top: 4px;
+   border-color: black;
+ }
+ #b2>a{
+   text-decoration: none;
+   font-weight: bold;
+   color: black;
+  font-size: 14px;
+ }
+ #b2>a:hover{
+   color: gray;
+ }
+ #b2:hover{     
+   cursor: pointer;
+   background-color: rgb(215, 214, 214);
+ }
+ #b1:hover{
+   cursor: pointer;
+   background-color: rgb(210, 207, 207);
+ }
+#forget{
+  float: right;
+}
+
+  hr{
+   color: gray;
+  }
+  #form>p{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 12px;
+  }
